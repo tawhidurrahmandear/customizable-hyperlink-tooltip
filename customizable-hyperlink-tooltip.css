@@ -1,0 +1,31 @@
+ /* Beautiful and Customizable Hyperlink Tooltip */
+ /* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com */
+ /* Live Preview available at https://www.devilhunter.net/2026/01/customizable-hyperlink-tooltip.html */
+
+
+
+/* Beautiful and Customizable Hyperlink Tooltip Styles */
+
+#tooltip {
+  background: lightyellow;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding: 6px 8px;
+}
+
+:root {
+  --tooltip-offset-x: 12px;
+  --tooltip-offset-y: 8px;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 1000;
+  word-break: break-word;
+  white-space: normal;  
+}
